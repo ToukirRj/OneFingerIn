@@ -23,7 +23,7 @@ const Home = () => (
             <Slider></Slider>
           </div>
         </div>
-        <div className="bg-[#eef0f3] rounded-3xl h-[700px] p-5">
+        <div className="bg-[#eef0f3] rounded-3xl p-5">
           <Cascade></Cascade>
           <Cards></Cards>
         </div>
