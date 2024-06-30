@@ -42,98 +42,85 @@
 
 
 
-:where(.css-dev-only-do-not-override-m4timi){
-    &.ant-select-outlined{
-        &:not(.ant-select-customize-input) {
-            .ant-select-selector{
-                border:0;
-                margin-left:5px;
-            }
+
+.ant-select-outlined{
+    &:not(.ant-select-customize-input) {
+        .ant-select-selector{
+            border:0;
+            margin-left:5px;
         }
     }
 }
-:where(.css-dev-only-do-not-override-m4timi){
-    &.ant-segmented {
-        background: #d7dae0;
+.ant-segmented {
+    background: #d7dae0;
+}
+.ant-segmented{
+    .ant-segmented-item-label {
+        font-weight: 600;
     }
 }
-:where(.css-dev-only-do-not-override-m4timi){
-    &.ant-segmented{
-        .ant-segmented-item-label {
-            font-weight: 600;
+.ant-input-search{
+    .ant-input-group{
+        .ant-input-affix-wrapper:not(:last-child) {
+            border-start-start-radius: 10px;
+            border-end-start-radius: 10px;
+            border:0;
+            box-shadow: 0px 0 15px 0 rgba(0,0,0,0.05);
+            height:48px;
+            font-size:1rem;
+            font-weight:600;
         }
     }
 }
 .ant-input-search{
-    :where(.css-dev-only-do-not-override-m4timi){
-        &.ant-input-group{
-            .ant-input-affix-wrapper:not(:last-child) {
-                border-start-start-radius: 10px;
-                border-end-start-radius: 10px;
-                border:0;
-                box-shadow: 0px 0 15px 0 rgba(0,0,0,0.05);
+    .ant-input-group{
+        .ant-input-group-addon:last-child{
+            .ant-input-search-button{
+                background-color:#3ED7A0;
                 height:48px;
+                border-radius:0 10px 10px 0;
+                width:160px;
                 font-size:1rem;
                 font-weight:600;
+                line-height:48px;
             }
         }
     }
 }
-:where(.css-dev-only-do-not-override-m4timi){
-    &.ant-input-search{
-        .ant-input-group{
-            .ant-input-group-addon:last-child{
-                .ant-input-search-button{
-                    background-color:#3ED7A0;
-                    height:48px;
-                    border-radius:0 10px 10px 0;
-                    width:160px;
-                    font-size:1rem;
-                    font-weight:600;
-                    line-height:48px;
-                }
-            }
+.ant-carousel{
+    .slick-arrow{
+        width:42px;
+        height:32px;
+        display:flex !important;
+        align-items:center;
+        justify-content:center;
+        border-radius:9px;
+        position:absolute;
+        top:-18px;
+        &:hover{
+            background:#fff;
+            box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
         }
-    }
-}
-
-
-:where(.css-dev-only-do-not-override-m4timi){
-    &.ant-carousel{
-        .slick-arrow{
-            width:42px;
-            height:32px;
-            display:flex !important;
-            align-items:center;
-            justify-content:center;
-            border-radius:9px;
-            position:absolute;
-            top:-18px;
-            &:hover{
-                background:#fff;
-                box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
-            }
-            &:focus{
-                background:#fff;
-                box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
-            }
-            &::after{
-                position: relative;
-                top:0;
-                color:#000;
-                left:0;
-                width:10px;
-                height:10px;
-            }
-            &.slick-prev{
-                right:45px !important;
-                left:auto;
-            }
-            &.slick-next{
-                right:0 !important;
-                background:#fff;
-                box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
-            }
+        &:focus{
+            background:#fff;
+            box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
+        }
+        &::after{
+            position: relative;
+            top:0;
+            color:#000;
+            left:0;
+            width:10px;
+            height:10px;
+        }
+        &.slick-prev{
+            right:45px !important;
+            left:auto;
+        }
+        &.slick-next{
+            right:0 !important;
+            background:#fff;
+            box-shadow: 0px 0 5px 0 rgba(0,0,0,0.15);
         }
     }
 }
