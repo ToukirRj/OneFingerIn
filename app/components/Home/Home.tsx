@@ -4,12 +4,13 @@ import Image from "next/image";
 import Segment from "../Segment";
 import Search from "../Search";
 import Slider from "../Slider";
+import Cascade from "../Cascade";
 
 const Home = () => (
   <div>
     <div className="grid grid-cols-5 space-x-4 py-5">
       <div className="col-span-3">
-        <div className="bg-[#eef0f3] rounded-3xl h-[700px] p-5">
+        <div className="bg-[#eef0f3] rounded-3xl px-5 pt-5 pb-8 mb-4">
           <div className="flex items-center justify-between">
             <Segment></Segment>
             <h4 className="text-md font-semibold">Today: Jun 24, Sat</h4>
@@ -20,6 +21,9 @@ const Home = () => (
           <div className="w-full relative">
             <Slider></Slider>
           </div>
+        </div>
+        <div className="bg-[#eef0f3] rounded-3xl h-[700px] p-5">
+          <Cascade></Cascade>
         </div>
       </div>
       <div className="col-span-2">
