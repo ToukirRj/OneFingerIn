@@ -47,7 +47,7 @@ const Header = () =>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
-                    <Image src='/slider/s-3.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
+                    <Image src='/slider/s-2.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
                 </div>
             </div>
             <div className='col-span-4'>
@@ -79,7 +79,7 @@ const Header = () =>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
-                    <Image src='/slider/s-3.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
+                    <Image src='/slider/s-1.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
                 </div>
             </div>
             <div className='col-span-4'>
@@ -111,7 +111,7 @@ const Header = () =>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
-                    <Image src='/slider/s-3.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
+                    <Image src='/slider/s-1.png' alt="hill" fill style={{ objectFit: 'cover' }} priority/>
                 </div>
             </div>
             <div className='col-span-4'>
