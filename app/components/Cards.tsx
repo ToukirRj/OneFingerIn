@@ -11,7 +11,7 @@ const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
 const Header = () => 
 (
   <section className='grid grid-cols-2 gap-4 mt-5'>
-    <div className='bg-white p-3 rounded-lg shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
+    <div className='bg-white p-3 rounded-[14px] shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
@@ -43,7 +43,7 @@ const Header = () =>
             </div>
         </div>
     </div>
-    <div className='bg-white p-3 rounded-lg shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
+    <div className='bg-white p-3 rounded-[14px] shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
@@ -75,7 +75,7 @@ const Header = () =>
             </div>
         </div>
     </div>
-    <div className='bg-white p-3 rounded-lg shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
+    <div className='bg-white p-3 rounded-[14px] shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
@@ -107,7 +107,7 @@ const Header = () =>
             </div>
         </div>
     </div>
-    <div className='bg-white p-3 rounded-lg shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
+    <div className='bg-white p-3 rounded-[14px] shadow-[0_0_5px_0px_rgba(0,0,0,0.07)]'>
         <div className='grid grid-cols-6 space-x-3'>
             <div className='col-span-2'>
                 <div className='relative w-full h-[95px] rounded-[7px] overflow-hidden'>
