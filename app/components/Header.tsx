@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Notify from './Notify'
 import Language from './Language'
 import { UserOutlined } from '@ant-design/icons';
-import { Avatar } from 'antd';
+import { Avatar, Badge } from 'antd';
 
 const handleClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
   event.preventDefault();
@@ -30,7 +30,9 @@ const Header = () =>
     </div>
     <div className='flex items-center'>
       <Link href='#' onClick={handleClick} className='me-3'><Icon icon="solar:heart-outline" width="23" height="23"/></Link>
-      <Notify></Notify>
+      <Badge dot>
+        <Notify></Notify>
+      </Badge>
       <Language></Language>
       <Link href='#' onClick={handleClick} className='ms-3'><Avatar icon={<UserOutlined />} /></Link>
     </div>

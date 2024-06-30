@@ -38,7 +38,7 @@ const App: React.FC = () => {
         onChange={onChange}
         multiple
         maxTagCount="responsive"
-        defaultValue={[['bamboo']]}
+        defaultValue={[['Low Cost']]}
       />
     </>
   );

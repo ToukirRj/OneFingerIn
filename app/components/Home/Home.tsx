@@ -5,6 +5,7 @@ import Segment from "../Segment";
 import Search from "../Search";
 import Slider from "../Slider";
 import Cascade from "../Cascade";
+import Cards from "../Cards";
 
 const Home = () => (
   <div>
@@ -24,11 +25,12 @@ const Home = () => (
         </div>
         <div className="bg-[#eef0f3] rounded-3xl h-[700px] p-5">
           <Cascade></Cascade>
+          <Cards></Cards>
         </div>
       </div>
       <div className="col-span-2">
         <div className="bg-[#F4F6F9] rounded-3xl h-full relative overflow-hidden">
-          <Image src='/hill.png' alt="hill" layout="fill" objectFit="cover" />
+          <Image src='/hill.png' alt="hill" fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"/>
         </div>
       </div>
     </div>
