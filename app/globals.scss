@@ -6,24 +6,24 @@
 .ant-space-item{
     width:100%;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots li {
+.ant-carousel .slick-dots li {
 	width:7px;
     margin-inline:2px;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots-bottom {
+.ant-carousel .slick-dots-bottom {
 	bottom: -5px;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots li button {
+.ant-carousel .slick-dots li button {
 	background: #222C40;
     height:7px;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots li.slick-active {
+.ant-carousel .slick-dots li.slick-active {
 	width: 28px;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-carousel .slick-dots li.slick-active button {
+.ant-carousel .slick-dots li.slick-active button {
 	background: #222C40;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-select-outlined.ant-select-multiple .ant-select-selection-item {
+.ant-select-outlined.ant-select-multiple .ant-select-selection-item {
 	height:30px;
     display:flex;
     align-items:center;
@@ -32,10 +32,10 @@
     padding:0 12px;
     font-weight:600;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-select-outlined.ant-select-multiple .ant-select-selection-item {
+.ant-select-outlined.ant-select-multiple .ant-select-selection-item {
 	background: #C0F9E3;
 }
-:where(.css-dev-only-do-not-override-m4timi).ant-select-multiple .ant-select-selector {
+.ant-select-multiple .ant-select-selector {
 	border-radius: 58px;
 }
 
